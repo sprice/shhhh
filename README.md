@@ -96,8 +96,14 @@ In your terminal, execute the following command.
 make transcribe
 ```
 
+### Read your sweet new transcription
+
+Open up `output.txt`
+
 ## Thanks
 
 Thanks to the [first result](https://eslyes.com/easydialogs/ec/entertainment01.htm) I was able to Google with a short audio mp3.
 
-Thanks to [Konstantin Rink](https://konstantin-rink.medium.com/) and [this article](https://towardsdatascience.com/transcribe-audio-files-with-openais-whisper-e973ae348aa7) for the bulk of the code.
+Thanks to [Konstantin Rink](https://konstantin-rink.medium.com/) and his article [Transcribe audio files with OpenAI’s Whisper](https://towardsdatascience.com/transcribe-audio-files-with-openais-whisper-e973ae348aa7) for the bulk of the code.
+
+Thanks to this [StackOverflow Answer](https://stackoverflow.com/a/9895195) for the addition of limiting line length in `output.txt`
