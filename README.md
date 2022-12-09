@@ -10,6 +10,20 @@ Future versions of shhhh will be easier to set up.
 
 ## Installation
 
+### Get this code onto your computer
+
+Open up your terminal and go to a folder you'd like to place this code.
+
+```sh
+$ cd Documents
+```
+
+Clone this git repository onto your computer.
+
+```sh
+$ git clone https://github.com/sprice/shhhh.git
+```
+
 ### Install Developer Tools
 
 In your terminal, execute the following command. Note this will download and install approximately 1.5GB of software.
@@ -23,6 +37,8 @@ $ xcode-select --install
 Installation instructions are on the [Homebrew](https://brew.sh/) website.
 
 ### Install ffmpeg
+
+Homebrew is a prerequisite to install ffmpeg.
 
 In your terminal, execute the following command.
 
