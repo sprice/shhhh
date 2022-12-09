@@ -10,26 +10,30 @@ Future versions of shhhh will be easier to set up.
 
 ## Installation
 
+## Open up a terminal
+
+Open up [Terminal on your Mac](https://www.howtogeek.com/682770/how-to-open-the-terminal-on-a-mac/)
+
 ### Get this code onto your computer
 
-Open up your terminal and go to a folder you'd like to place this code.
+In Terminal, go to a folder you'd like to place this code.
 
 ```sh
-$ cd Documents
+cd Documents
 ```
 
 Clone this git repository onto your computer.
 
 ```sh
-$ git clone https://github.com/sprice/shhhh.git
+git clone https://github.com/sprice/shhhh.git
 ```
 
 ### Install Developer Tools
 
-In your terminal, execute the following command. Note this will download and install approximately 1.5GB of software.
+In Terminal, execute the following command. Note this will download and install approximately 1.5GB of software.
 
 ```sh
-$ xcode-select --install
+xcode-select --install
 ```
 
 ### Install Homebrew
@@ -40,26 +44,26 @@ Installation instructions are on the [Homebrew](https://brew.sh/) website.
 
 Homebrew is a prerequisite to install ffmpeg.
 
-In your terminal, execute the following command.
+In Terminal, execute the following command.
 
 ```sh
-$ brew install ffmpeg
+brew install ffmpeg
 ```
 
 ### Install pydub
 
-In your terminal, execute the following command.
+In Terminal, execute the following command.
 
 ```sh
-$ pip3 install pydump
+pip3 install pydump
 ```
 
 ### Install Whisper
 
-In your terminal, execute the following command.
+In Terminal, execute the following command.
 
 ```sh
-$ pip3 install git+https://github.com/openai/whisper.git
+pip3 install git+https://github.com/openai/whisper.git
 ```
 
 ### Ensure your Python Certificates are happy
@@ -70,12 +74,18 @@ See [this StackOverflow post](https://stackoverflow.com/a/70495761)
 
 Place a file named `original.mp3` into the directory of this code.
 
-### Prepare audio
-
-In your terminal, execute the following command.
+To open this directory up in Finder type the following in Terminal when you are in the folder of this code.
 
 ```sh
-$ make prepare
+open .
+```
+
+### Prepare audio
+
+In Terminal, execute the following command.
+
+```sh
+make prepare
 ```
 
 ### Transribe audio
@@ -83,7 +93,7 @@ $ make prepare
 In your terminal, execute the following command.
 
 ```sh
-$ make transcribe
+make transcribe
 ```
 
 ## Thanks
